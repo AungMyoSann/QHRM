@@ -34,25 +34,25 @@
         <form asp-action="Create" novalidate>
             <div class="mb-3">
                 <label asp-for="Id" class="form-label">Product ID</label>
-                <input asp-for="Id" class="form-control" placeholder="Enter product ID" />
+                <input asp-for="Id" class="form-control" placeholder="Enter Product ID" />
                 <span asp-validation-for="Id" class="text-danger small"></span>
             </div>
 
             <div class="mb-3">
                 <label asp-for="Name" class="form-label">Name</label>
-                <input asp-for="Name" class="form-control" placeholder="Product name" />
+                <input asp-for="Name" class="form-control" placeholder="Product Name" />
                 <span asp-validation-for="Name" class="text-danger small"></span>
             </div>
 
             <div class="mb-3">
                 <label asp-for="Description" class="form-label">Description</label>
-                <textarea asp-for="Description" class="form-control" rows="3" placeholder="Product description"></textarea>
+                <textarea asp-for="Description" class="form-control" rows="3" placeholder="Product Description"></textarea>
                 <span asp-validation-for="Description" class="text-danger small"></span>
             </div>
 
             <div class="mb-3">
                 <label asp-for="Price" class="form-label">Price</label>
-                <input asp-for="Price" class="form-control" placeholder="Product price" />
+                <input asp-for="Price" class="form-control" placeholder="Product Price" />
                 <span asp-validation-for="Price" class="text-danger small"></span>
             </div>
 
